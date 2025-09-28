@@ -63,7 +63,7 @@ if(isset($_POST['update'])){
 	$run_query = mysqli_query($conn,$query);
 	if($run_query){
 		echo '<script> alert("Updated record successfully")</script>';
-		header("Location: view_subcategory.php");
+		header("Location: update_subcategory.php");
 	}
 	else{
 		echo '<script>alert("Updation failed")</script>';

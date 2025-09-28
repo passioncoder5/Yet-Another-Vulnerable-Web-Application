@@ -1,7 +1,7 @@
 <?php 
+	session_start();
 	require_once "database.php";
 	include('admin_check.php');
-	session_start();
 	$conn = mysqli_connect($servername,$username,$password,$database);
 		if(!$conn){
 			die("Couldn't connect to Mysql".mysqli_connect_error());
@@ -63,7 +63,6 @@ if(isset($_POST['update'])){
 	$query = "update category set category_name='$_POST[category]',description='$_POST[description]' where id = $_GET[id]";
 	$run_query = mysqli_query($conn,$query);
 	if($run_query){
-		echo '<script> alert("Updated record successfully")</script>';
 		header("Location: update_category.php");
 	}
 	else{

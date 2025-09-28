@@ -63,7 +63,7 @@ if(isset($_POST['update'])){
 	$query = "update category set category_name='$_POST[category]',description='$_POST[description]' where id = $_GET[id]";
 	$run_query = mysqli_query($conn,$query);
 	if($run_query){
-		header("Location: update_category.php");
+		header("Location: view_category.php");
 	}
 	else{
 		echo '<script>alert("Updation failed"")</script>';

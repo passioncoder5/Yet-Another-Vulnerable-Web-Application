@@ -1,5 +1,6 @@
 # Yet another vulnerable web application
 ### This buggy web application contains vulnerability such as sqli,xss,access control vulnerabilities,IDOR etc and built with medium security to enhance the knowledge of script kiddies
+### Default username and password for Admin login email ara@gmail.com password araara
 ## Set it up using the guide below
 ---
 

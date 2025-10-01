@@ -25,8 +25,8 @@
 3. **Import Database via phpMyAdmin**
 
    * Open: 👉 [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
-   * Click **Databases** → Create new DB (name: `newsportal`).
-   * Select `newsportal` → **Import** tab.
+   * Click **Databases** → Create new DB (name: `news`).
+   * Select `news` → **Import** tab.
    * Browse and upload `news.sql`.
    * Click **Go** → schema + data imported.
 
@@ -37,7 +37,7 @@
    $servername = "localhost";
    $username   = "root";
    $password   = "";
-   $dbname     = "newsportal";
+   $dbname     = "news";
    ```
 
    (LAMPP root has no password by default.)
@@ -64,8 +64,8 @@
 3. **Import Database via phpMyAdmin**
 
    * Open: 👉 [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
-   * Click **Databases** → Create new DB (name: `newsportal`).
-   * Select `newsportal` → **Import** tab.
+   * Click **Databases** → Create new DB (name: `news`).
+   * Select `news` → **Import** tab.
    * Browse and upload `news.sql`.
    * Click **Go** → schema + data imported.
 
@@ -76,7 +76,7 @@
    $servername = "localhost";
    $username   = "root";
    $password   = "";
-   $dbname     = "newsportal";
+   $dbname     = "news";
    ```
 
    (XAMPP root also has no password by default.)
